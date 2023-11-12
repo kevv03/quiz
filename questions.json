@@ -1,0 +1,18 @@
+[
+    {
+        "question": "¿Cual de los siguientes países no pertenece a Sudamérica?",
+        "resone": "Colombia",
+        "restwo": "Panamá",
+        "resthree": "Chile",
+        "resfour": "Ecuador",
+        "result": "Panamá"
+    },
+    {
+        "question": "¿En qué fecha se declaró la independencia de Argentina?",
+        "resone": "25 de mayo de 1810",
+        "restwo": "20 de junio de 1820",
+        "resthree": "9 de julio de 1816",
+        "resfour": "17 de agosto 1850",
+        "result": "9 de julio de 1816"
+    }
+]
