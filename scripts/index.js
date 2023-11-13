@@ -21,10 +21,10 @@ const finalRes = JSON.parse(preguntasYRespuestas);
 
 const contador = document.getElementById('contador');
 const question = document.getElementById('question');
-const resOne = document.getElementById('resone');
-const resTwo = document.getElementById('restwo');
-const resThree = document.getElementById('resthree');
-const resFour = document.getElementById('resfour');
+const resOne = document.getElementById('resOne');
+const resTwo = document.getElementById('resTwo');
+const resThree = document.getElementById('resThree');
+const resFour = document.getElementById('resFour');
 const nextBtn = document.getElementById('nextBtn');
 
 const result = `${finalRes.result}`
@@ -43,19 +43,4 @@ const nextQuestion = ()=>{
     contador.innerHTML = counterTwo+"/10";
 }
 
-const comparisonResult = ()=>{
-    counter++;
-    if (`${finalRes[counter].question}` === `${finalRes[counter].question}`){
-
-    }
-}
-
-resOne.addEventListener("click", comparisonResult);
-resTwo.addEventListener("click", comparisonResult);
-resThree.addEventListener("click", comparisonResult);
-resFour.addEventListener("click", comparisonResult);
-
 nextBtn.addEventListener("click", nextQuestion);
-
-console.log(finalRes[0].result);
-
